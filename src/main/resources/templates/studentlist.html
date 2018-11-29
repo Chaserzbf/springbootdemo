@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<table border="1">
+    <tr>
+        <th>id</th>
+        <th>姓名</th>
+        <th>年龄</th>
+    </tr>
+    <tr th:each="student: ${list}">
+        <td th:text="${student.id}">Onions</td>
+        <td th:text="${student.name}">test@test.com.cn</td>
+        <td th:text="${student.age}">yes</td>
+    </tr>
+</table>
+</body>
+</html>

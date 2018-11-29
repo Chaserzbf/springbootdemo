@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: root
+    password: 123
+    url: jdbc:mysql://localhost:3306/1803_user
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.mchange.v2.c3p0.ComboPooledDataSource
+  thymeleaf:
+    cache: false
+    mode: HTML5
+mybatis:
+  type-aliases-package: com/chuangxiang/demo/com/chuangxiang/entity
+  mapper-locations: classpath:com/chuangxiang/demo/com/chuangxiang/dao/mapper/*.xml
+
+
+
+
