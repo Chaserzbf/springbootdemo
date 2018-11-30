@@ -61,6 +61,14 @@
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.w3c.dom/org.w3c.dom.svg -->
+		<dependency>
+			<groupId>org.w3c.dom</groupId>
+			<artifactId>org.w3c.dom.svg</artifactId>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
